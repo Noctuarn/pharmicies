@@ -1,0 +1,17 @@
+footer{
+    background-color: #0E465DFA;
+    height: 20%;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 15px 15px;
+  }
+  
+  footer h3{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 21.48px;
+    letter-spacing: -1%;
+  }

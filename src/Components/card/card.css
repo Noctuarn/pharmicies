@@ -1,0 +1,48 @@
+.card{
+    background-color: #1D82ABFA;
+    width: 80%;
+    border-radius: 15px;
+    margin: 20px 24px;
+    height: 115px;
+    box-sizing: border-box;
+    padding: 20px 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card h3{
+    font-family: 'Lexend Tera', 'Arial';
+    font-size: 24px;
+    line-height: 19.92px;
+    color: white;
+  }
+  
+  .card p{
+    font-family: 'Montserrat', sans-serif;
+    color: #0E465DFA;
+    font-size: 16px;
+    line-height: 16.6px;
+    letter-spacing: 18.5%;
+    font-weight: 700;
+  }
+
+  .buttons{
+    display: flex;
+    gap: 15px;
+  
+  }
+
+  .btn{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+

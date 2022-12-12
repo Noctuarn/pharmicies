@@ -1,0 +1,9 @@
+.map{
+    background-color:lightskyblue;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 20;
+    right: 0;
+    z-index: 1;
+  }
