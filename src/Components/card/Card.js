@@ -5,7 +5,7 @@ import './card.css';
 function Card(props){
 
 
-    const [buttonText, setButtonText] = useState('Дізнатися про аптеку');
+    const [buttonText, setButtonText] = useState('Дізнатися більше');
     const [buttonVariant, setButtonVariant] = useState('');
 
     const [buttonText2, setButtonText2] = useState('У вибране');
@@ -22,9 +22,6 @@ function Card(props){
   }
 
 
-
-
-
     return(
      <div className='card'>
       <div className="description">
@@ -32,8 +29,8 @@ function Card(props){
         <p>{props.street}</p>
       </div>
       <div className="buttons">
-        <button className="more btn" onClick={MoreAbout}>Дізнатися більше</button>
-        <button className="selected btn">В збереженне</button>
+        <button className="more btn" onClick={MoreAbout}>{buttonText}</button>
+        <button className="selected btn" onClick={ToSelected}>{buttonText2}</button>
       </div>
      </div> 
     )

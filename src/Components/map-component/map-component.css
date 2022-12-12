@@ -1,0 +1,35 @@
+.elem_content{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    height: 590px;
+    margin: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+
+.elem_content img{
+    width: 400px;
+    height: 300px;
+}
+
+.title{
+    font-size: 30px;
+    color: #0E465D;
+    
+}
+
+.elem_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+span{
+    color: #0E465D;
+    font-weight: 700;
+}
