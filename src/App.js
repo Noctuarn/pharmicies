@@ -7,6 +7,7 @@ import Map from './Components/map/Map';
 import MapList from './Components/map-list/MapList';
 import About from './Pages/about/About';
 import Selected from './Pages/selected/Selected';
+import Main from './Pages/main/Main';
 
 function App() {
   return (
@@ -16,21 +17,21 @@ function App() {
         <Header/>
      </div>
 
-      <div className='main'>
+      <div>
       <Routes>
+        <Route path='/main' element = {<Main/>}/> 
         <Route path='/about' element = {<About/>}/>
         <Route path='/selected' element = {<Selected/>}/> 
-        {/* <Route path='/main' element = {<ListComponents/>}/> */}
       </Routes>
 
-      <div className='content'>
+      {/* <div className='content'>
         <h2 className='content__title'>Аптеки Івано-Франківська</h2>
           <CardList/>
           <MapList/>
           <Footer/>
       </div>
 
-      <Map/>
+      <Map/> */}
 
       </div>
 

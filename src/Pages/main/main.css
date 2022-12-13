@@ -1,0 +1,21 @@
+.main{
+    height: 100%;
+    display: flex;
+    margin-top: 90px;
+    position: relative;
+  }
+  
+  .content{
+    width: 50%;
+  }
+  
+  .content h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #0E465DFA;
+    font-size: 20px;
+    line-height: 16.6px;
+    letter-spacing: 18.5%;
+    font-weight: 700;
+    margin-left: 50px;
+  }
+  
