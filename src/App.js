@@ -1,18 +1,27 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import Header from './Components/header/Header';
 import Footer from './Components/footer/Footer';
 import CardList from './Components/card-list/CardList';
 import Map from './Components/map/Map';
 import MapList from './Components/map-list/MapList';
+import About from './Pages/about/About';
+import Selected from './Pages/selected/Selected';
 
 function App() {
   return (
     <div className="App">
 
-     
-      <Header/>
+     <div className='menu'>
+        <Header/>
+     </div>
 
       <div className='main'>
+      <Routes>
+        <Route path='/about' element = {<About/>}/>
+        <Route path='/selected' element = {<Selected/>}/> 
+        {/* <Route path='/main' element = {<ListComponents/>}/> */}
+      </Routes>
 
       <div className='content'>
         <h2 className='content__title'>Аптеки Івано-Франківська</h2>
