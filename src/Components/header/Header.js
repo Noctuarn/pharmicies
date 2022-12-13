@@ -15,8 +15,8 @@ function Header(){
 
           <div className='header__menu'>
               <a className='menu__links' href='#'>Головна</a>
-              <a className='menu__links' href='#'>Збереженне</a>
-              <a className='menu__links' href='#'>Про нас</a>
+              <a className='menu__links' href='/selected'>Збереженне</a>
+              <a className='menu__links' href='/about'>Про нас</a>
           </div>
 
           <img width={"65px"} height={"65px"} src={logoImage} alt="Картинки нема"/>
