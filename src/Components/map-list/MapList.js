@@ -10,9 +10,6 @@ function MapList (){
         
     ];
 
-
-
-
     return(
         
         itemList.map(item => {

@@ -1,10 +1,13 @@
 import React from "react";
+import './about.css';
+import AboutList from "../../Components/about-list/AboutList";
+
 
 function About(){
 
     return (
-        <div className="about__content">
-            
+        <div className="about">
+          <AboutList/>
         </div>
     )
 }
